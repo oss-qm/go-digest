@@ -1,0 +1,5 @@
+golang-digest (1.0.0-rc1) unstable; urgency=low
+
+  * Initial package.
+
+ -- Enrico Weigelt, metux IT consult <info@metx.net>  Mon, 23 Apr 2018 12:08:21 +0200

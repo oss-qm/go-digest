@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: go-digest
+Source: https://github.com/opencontainers/go-digest
+
+Files: *
+Copyright: 2016 Docker Inc
+License: Apache license 2.0
+
+Files: debian/*
+Copyright: 2018 Enrico Weigelt, metux IT consult <info@metux.net>
+License: AGPLv3

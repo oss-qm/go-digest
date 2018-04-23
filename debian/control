@@ -1,0 +1,15 @@
+Source: golang-digest
+Section: devel
+Priority: extra
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/opencontainers/go-digest
+
+Package: golang-digest-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dpkg-dev
+Built-Using: ${misc:Built-Using}
+Description: Go digest module
